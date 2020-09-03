@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;700;900&display=swap');
+
+body { 
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  font-weight: 900;
+  
+}
+
+.header .title{
+  margin: auto;
+  position: relative;
+}
+
+.header .title .beer-emoji {
+  font-size: 25px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.header .bird-emoji {
+  position: absolute;
+  right: 0;
+  margin: 20px 10px;
+}
+
+.article-wrapper {
+  display: flex;
+  flex-grow: 1;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.article-wrapper .article1 {
+  background-color: #FF9AA2;
+  padding: 20px;
+}
+
+.article-wrapper .article2 {
+  background-color: #FFB7B2;
+  padding: 20px; 
+}
+.article-wrapper .article3 {
+  background-color: #FFDAC1;
+  padding: 20px;
+}
+.article-wrapper .article4 {
+  background-color: #E2F0CB;
+  padding: 20px;
+}
+.article-wrapper .article5 {
+  background-color: #C7CEEA;
+  padding: 20px;
+}
+
+.article-wrapper .fecha {
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.article-wrapper .article-title {
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.article-wrapper .article-body {
+  margin-bottom: 50px;
+  line-height: 1.4em;
+}
+
+.article-wrapper .read-article-button {
+  text-decoration: none;
+  color: #3D3A37;
+  font-weight: 900;
+  font-size: 15px;
+  background-color: #FFF;
+  display: block;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  
+}
